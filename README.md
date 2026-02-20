@@ -33,10 +33,10 @@ Developer Code → Jenkins Pipeline → SonarQube Analysis → OWASP Scan → Ma
 # Infrastructure Provisioning using Terraform
 Terraform is used to provision the AWS EKS cluster.
 Cluster Provisioning Steps
-terraform init
-terraform validate
-terraform plan
-terraform apply --auto-approve
+- terraform init
+- terraform validate
+- terraform plan
+- terraform apply --auto-approve
 
 ---
 # Key Outcomes
